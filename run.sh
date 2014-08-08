@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ $# -lt 2 ]; then
+    echo "usage: $(basename $0) <speechfile> <noisefile>"
+    exit 1
+fi
+
 speechfile=$1
 noisefile=$2
 
