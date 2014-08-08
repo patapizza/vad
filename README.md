@@ -19,6 +19,8 @@ noise.wav is a sample of noise only recorded in the testing environment
 
 J. Odent
 
+J. Lyons for `framesig` function: see https://github.com/jameslyons/python_speech_features
+
 ## License
 
     GNU GPL v2 - see LICENSE
