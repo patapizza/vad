@@ -7,7 +7,10 @@ import sys
 import array
 
 def framesig(sig,frame_len,frame_step,winfunc=lambda x:numpy.ones((1,x))):
-    """Frame a signal into overlapping frames.
+    """
+    Function written by J. Lyons: see https://github.com/jameslyons/python_speech_features
+    
+    Frame a signal into overlapping frames.
 
     :param sig: the audio signal to frame.
     :param frame_len: length of each frame measured in samples.
